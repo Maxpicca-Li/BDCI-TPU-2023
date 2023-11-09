@@ -1,3 +1,6 @@
+Base: [TPU-Coder-Cup/CCF2023 at main · sophgo/TPU-Coder-Cup (github.com)](https://github.com/sophgo/TPU-Coder-Cup/tree/main/CCF2023)
+
+
 [toc]
 
 # 算能-超分辨率重建模型迁移DEMO
@@ -61,7 +64,6 @@ source ./envsetup.sh
 
 至此，开发环境已经配置完成，可以开始模型迁移啦！
 
-
 ## 2 模型转换
 
 首先选用一个开源模型，将预训练的模型转换成可以在算能TPU上运行的bmodel形式，本文以REAL-ESRGAN网络为例。
@@ -81,6 +83,7 @@ model_deploy.py \
  --chip bm1684x \
  --model resrgan4x.bmodel
 ```
+
 更多模型编译案例可参考[TPU-MLIR快速入门手册](https://doc.sophgo.com/sdk-docs/v23.07.01/docs_latest_release/docs/tpu-mlir/quick_start/html/index.html) 。
 
 ## 3 模型推理
@@ -91,20 +94,17 @@ model_deploy.py \
 
 将本地编译的模型、测试集及所需相关文件上传至云空间：
 
-------
+---
 
 - 本地 bmodel
+- 测试集地址：可从竞赛官网处下载获取
+- 相关文件：https://github.com/sophgo/TPU-Coder-Cup/blob/main/CCF2023/npuengine.py
 
-- 测试集地址：可从竞赛官网处下载获取 
+      https://github.com/sophgo/TPU-Coder-Cup/blob/main/CCF2023/sophon-0.4.8-py3-none-any.whl
 
-- 相关文件：https://github.com/sophgo/TPU-Coder-Cup/blob/main/CCF2023/npuengine.py 
+      https://github.com/sophgo/TPU-Coder-Cup/tree/main/CCF2023/metrics
 
-  ​      https://github.com/sophgo/TPU-Coder-Cup/blob/main/CCF2023/sophon-0.4.8-py3-none-any.whl
-  
-  ​       https://github.com/sophgo/TPU-Coder-Cup/tree/main/CCF2023/metrics
-
-------
-
+---
 
 ### 3.2 使用sail加载bmodel进行推理
 
@@ -119,7 +119,8 @@ python3 upscale.py \
 --output results/test_fix \
 --report results/test.json
 ```
-------
+
+---
 
 其中，导入bmodel：
 
@@ -128,7 +129,7 @@ python3 upscale.py \
 self.model = sail.Engine(model_path, device_id, sail.IOMode.SYSIO)
 ```
 
-------
+---
 
 计算重构图片的niqe值：
 
@@ -140,7 +141,8 @@ with warnings.catch_warnings():
   niqe_output = calculate_niqe(output, 0, input_order='HWC', convert_to='y')
 ```
 
-------
+---
+
 输出结果文件所需的参数：
 
 ```
@@ -152,9 +154,10 @@ params = {"A": [{"model_size": model_size, "time_all": time_all, "runtime_avg": 
 params = {"B": [{"model_size": model_size, "time_all": time_all, "runtime_avg": format(runtime_avg, '.4f'),
                      "niqe_avg": format(niqe_avg, '.4f'), "images": result}]}
 ```
-------
-至此，你已经成功生成了test.json文件，将该文件提交到CCFBDCI官方竞赛系统，看看自己的得分吧！
 
+---
+
+至此，你已经成功生成了test.json文件，将该文件提交到CCFBDCI官方竞赛系统，看看自己的得分吧！
 
 # 附录：
 
