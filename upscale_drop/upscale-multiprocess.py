@@ -12,7 +12,7 @@ import signal
 import sys
 import sophon.sail as sail
 from metrics.niqe import calculate_niqe
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 
 device_id = 0
 
@@ -137,7 +137,7 @@ class UpscaleModel:
 
         # 遍历每个瓦片的行和列索引
         # TODO lyq: 如果推理优化也算的话，这里也可以改
-        # 如果要模型进行多线程推理，那这里应该就是最好的切入点，因为modelprocess内的数据单位太小了，不太好又分
+        # 如果要模型进行多线程推理，那这里应该就是最好的切入点，因为modelprocess内的数据单位太小了，不太好又分        
         engine_list = [self.engine] * (num_rows*num_cols)
         tile_list = []
         for row in range(num_rows):
@@ -146,7 +146,7 @@ class UpscaleModel:
                 tile = image.crop((tile_left, tile_top, tile_right, tile_bottom))
                 tile_list.append(tile)
 
-        with ThreadPoolExecutor(max_workers=8) as pool:
+        with ProcessPoolExecutor(max_workers=2) as pool:
             results = pool.map(self.thread_infer, engine_list, tile_list)
         img_tiles = []
         img_h_tiles = []

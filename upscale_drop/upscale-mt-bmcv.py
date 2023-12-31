@@ -27,9 +27,13 @@ class UpscaleModel:
             model = "./models/other/resrgan4x.bmodel"
         self.engine = sail.Engine(device_id)
         self.engine.load(model)
-        self.image = None
         self.model_size = model_size
+        self.img_handle = sail.Handle(device_id)
+        self.bmcv = sail.Bmcv(self.img_handle)
 
+    def get_handle(self):
+        return self.engine.get_handle()
+    
     def calc_tile_position(self, width, height, col, row):
         # generate mask
         tile_left = col * self.tile_size[0]
@@ -70,7 +74,9 @@ class UpscaleModel:
     #     res = res.resize(self.target_tile_size)
     #     return res
     
-    def thread_infer(self, engine, tile):
+    def thread_infer(self, engine, ntile):
+        # ntile is the result of crop and resize
+        
         # get model info
         # only one model loaded for this engine
         # only one input tensor and only one output tensor in this graph
@@ -94,7 +100,6 @@ class UpscaleModel:
 
         
         # 使用超分辨率模型放大瓦片
-        ntile = tile.resize(self.model_size)
         # preprocess
         ntile = np.array(ntile).astype(np.float32)
         ntile = ntile / 255
@@ -122,11 +127,11 @@ class UpscaleModel:
         return ntile
 
     def extract_and_enhance_tiles(self, image, upscale_ratio=2.0):
-        if image.mode != "RGB":
-            image = image.convert("RGB")
+        if image.format() != sail.FORMAT_RGB_PLANAR:
+            print(f"format is {image.format()}, not RGB{sail.FORMAT_RGB_PLANAR}")
+            sys.exit()
         # 获取图像的宽度和高度
-        width, height = image.size
-        self.image = image
+        width, height = image.width, image.height
         self.upscale_rate = upscale_ratio
         self.target_tile_size = (int((self.tile_size[0] + self.padding * 1) * upscale_ratio),
                                  int((self.tile_size[1] + self.padding * 1) * upscale_ratio))
@@ -143,7 +148,8 @@ class UpscaleModel:
         for row in range(num_rows):
             for col in range(num_cols):
                 tile_top, tile_left, tile_bottom, tile_right = self.calc_tile_position(width, height, col, row)
-                tile = image.crop((tile_left, tile_top, tile_right, tile_bottom))
+                # tile = image.crop((tile_left, tile_top, tile_right, tile_bottom))
+                tile = self.bmcv.crop_and_resize(image, tile_left, tile_top, tile_right-tile_left, tile_bottom-tile_top, self.model_size[0], self.model_sizep[1])
                 tile_list.append(tile)
 
         with ThreadPoolExecutor(max_workers=8) as pool:
@@ -187,15 +193,23 @@ def main():
     # set models 利用model_path设置模型 -> 目前是单线程逻辑
     # TODO lyq: 多线程怎么加的问题
     model = args.model_path
-    upmodel = UpscaleModel(model=model, model_size=(200, 200), upscale_rate=4, tile_size=(196, 196), padding=20)
+    device_id = 0
+    upmodel = UpscaleModel(model=model, model_size=(200, 200), upscale_rate=4, tile_size=(196, 196), padding=20, device_id=device_id)
 
     # 模型推理开始
     start_all = time.time()
     result, runtime, niqe = [], [], []
     for idx, path in enumerate(paths):
         img_name, extension = os.path.splitext(os.path.basename(path))
-        img = Image.open(path)
         print("Testing", idx, img_name)
+        
+        #img = Image.open(path)
+        img = sail.BMImage()
+        decoder = sail.Decoder(path, True, device_id)
+        ret = decoder.read(upmodel.img_handle, img)
+        if ret!=0:
+            print("read image error!")
+            sys.exit()
 
         start = time.time()
         # 模型执行
