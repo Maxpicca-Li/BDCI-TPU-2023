@@ -24,7 +24,7 @@ class EngineOV:
             print(">>>> sail.Engine error: ", e)
             raise e
         # print logs
-        sail.set_print_flag(True)
+        # sail.set_print_flag(True)
         self.graph_name = self.model.get_graph_names()[0]
         self.input_name = self.model.get_input_names(self.graph_name)
         self.output_name = self.model.get_output_names(self.graph_name)

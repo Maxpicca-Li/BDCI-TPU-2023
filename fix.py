@@ -51,7 +51,7 @@ def imgFusion2(img1,img2, overlap,left_right=True):
 
 
 def imgFusion(img_list, overlap, res_w, res_h):
-    print(res_w, res_h)
+    # print(res_w, res_h)
     pre_v_img = None
     for vi in range(len(img_list)):
         h_img = np.transpose(img_list[vi][0], (1,2,0))
