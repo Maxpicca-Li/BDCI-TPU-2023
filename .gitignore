@@ -1,7 +1,12 @@
-models/
+# 模型过大：git lfs 要钱，就不上传了
+models/ 
+bmodel/
+
+# 数据集过大：git lfs 要钱，就不上传了
 dataset/
-results/
+
+# 临时文件
 __pycache__/
-tmp/
 .DS_Store
+tmp/
 test*

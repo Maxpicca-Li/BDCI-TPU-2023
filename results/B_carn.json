@@ -1,0 +1,3012 @@
+{
+    "A": [
+        {
+            "model_size": 5225736,
+            "time_all": 4344.969005346298,
+            "runtime_avg": "1.2277",
+            "niqe_avg": "5.6546",
+            "images": [
+                {
+                    "img_name": "0001",
+                    "runtime": "0.6120",
+                    "niqe": "5.9345"
+                },
+                {
+                    "img_name": "0002",
+                    "runtime": "0.5821",
+                    "niqe": "6.2819"
+                },
+                {
+                    "img_name": "0003",
+                    "runtime": "0.6726",
+                    "niqe": "4.2866"
+                },
+                {
+                    "img_name": "0004",
+                    "runtime": "1.3467",
+                    "niqe": "5.2852"
+                },
+                {
+                    "img_name": "0005",
+                    "runtime": "0.5031",
+                    "niqe": "6.3751"
+                },
+                {
+                    "img_name": "0006",
+                    "runtime": "0.5076",
+                    "niqe": "4.8837"
+                },
+                {
+                    "img_name": "0007",
+                    "runtime": "0.5148",
+                    "niqe": "5.0477"
+                },
+                {
+                    "img_name": "0008",
+                    "runtime": "0.5070",
+                    "niqe": "5.5474"
+                },
+                {
+                    "img_name": "0009",
+                    "runtime": "0.5039",
+                    "niqe": "7.1666"
+                },
+                {
+                    "img_name": "0010",
+                    "runtime": "0.5193",
+                    "niqe": "5.2341"
+                },
+                {
+                    "img_name": "0011",
+                    "runtime": "0.5192",
+                    "niqe": "5.3352"
+                },
+                {
+                    "img_name": "0012",
+                    "runtime": "2.0336",
+                    "niqe": "5.3196"
+                },
+                {
+                    "img_name": "0013",
+                    "runtime": "0.4926",
+                    "niqe": "5.9500"
+                },
+                {
+                    "img_name": "0014",
+                    "runtime": "5.4518",
+                    "niqe": "6.5182"
+                },
+                {
+                    "img_name": "0015",
+                    "runtime": "0.5194",
+                    "niqe": "5.2007"
+                },
+                {
+                    "img_name": "0016",
+                    "runtime": "1.8202",
+                    "niqe": "4.8403"
+                },
+                {
+                    "img_name": "0017",
+                    "runtime": "0.5082",
+                    "niqe": "6.5302"
+                },
+                {
+                    "img_name": "0018",
+                    "runtime": "1.0609",
+                    "niqe": "7.7664"
+                },
+                {
+                    "img_name": "0019",
+                    "runtime": "0.4915",
+                    "niqe": "5.5641"
+                },
+                {
+                    "img_name": "0020",
+                    "runtime": "5.3630",
+                    "niqe": "4.9255"
+                },
+                {
+                    "img_name": "0021",
+                    "runtime": "0.4933",
+                    "niqe": "5.1864"
+                },
+                {
+                    "img_name": "0022",
+                    "runtime": "5.2025",
+                    "niqe": "4.9993"
+                },
+                {
+                    "img_name": "0023",
+                    "runtime": "0.8310",
+                    "niqe": "4.6644"
+                },
+                {
+                    "img_name": "0024",
+                    "runtime": "5.4603",
+                    "niqe": "4.6473"
+                },
+                {
+                    "img_name": "0025",
+                    "runtime": "0.4937",
+                    "niqe": "6.0260"
+                },
+                {
+                    "img_name": "0026",
+                    "runtime": "0.5102",
+                    "niqe": "5.3805"
+                },
+                {
+                    "img_name": "0027",
+                    "runtime": "1.0840",
+                    "niqe": "5.8842"
+                },
+                {
+                    "img_name": "0028",
+                    "runtime": "2.6045",
+                    "niqe": "5.1639"
+                },
+                {
+                    "img_name": "0029",
+                    "runtime": "0.5058",
+                    "niqe": "5.9141"
+                },
+                {
+                    "img_name": "0030",
+                    "runtime": "1.1517",
+                    "niqe": "5.5248"
+                },
+                {
+                    "img_name": "0031",
+                    "runtime": "2.0639",
+                    "niqe": "5.0247"
+                },
+                {
+                    "img_name": "0032",
+                    "runtime": "0.4963",
+                    "niqe": "5.6236"
+                },
+                {
+                    "img_name": "0033",
+                    "runtime": "0.5012",
+                    "niqe": "5.6336"
+                },
+                {
+                    "img_name": "0034",
+                    "runtime": "5.2157",
+                    "niqe": "5.5236"
+                },
+                {
+                    "img_name": "0035",
+                    "runtime": "1.2276",
+                    "niqe": "8.9117"
+                },
+                {
+                    "img_name": "0036",
+                    "runtime": "1.3140",
+                    "niqe": "4.9621"
+                },
+                {
+                    "img_name": "0037",
+                    "runtime": "2.4909",
+                    "niqe": "4.2893"
+                },
+                {
+                    "img_name": "0038",
+                    "runtime": "0.5575",
+                    "niqe": "6.3895"
+                },
+                {
+                    "img_name": "0039",
+                    "runtime": "0.5233",
+                    "niqe": "7.2553"
+                },
+                {
+                    "img_name": "0040",
+                    "runtime": "5.4526",
+                    "niqe": "5.2709"
+                },
+                {
+                    "img_name": "0041",
+                    "runtime": "4.5253",
+                    "niqe": "4.8144"
+                },
+                {
+                    "img_name": "0042",
+                    "runtime": "1.0660",
+                    "niqe": "5.5694"
+                },
+                {
+                    "img_name": "0043",
+                    "runtime": "2.1758",
+                    "niqe": "6.7905"
+                },
+                {
+                    "img_name": "0044",
+                    "runtime": "0.4706",
+                    "niqe": "5.5753"
+                },
+                {
+                    "img_name": "0045",
+                    "runtime": "0.4991",
+                    "niqe": "5.7836"
+                },
+                {
+                    "img_name": "0046",
+                    "runtime": "0.4876",
+                    "niqe": "6.2239"
+                },
+                {
+                    "img_name": "0047",
+                    "runtime": "0.7092",
+                    "niqe": "4.3284"
+                },
+                {
+                    "img_name": "0048",
+                    "runtime": "0.4911",
+                    "niqe": "5.5723"
+                },
+                {
+                    "img_name": "0049",
+                    "runtime": "1.1264",
+                    "niqe": "6.3046"
+                },
+                {
+                    "img_name": "0050",
+                    "runtime": "0.4943",
+                    "niqe": "4.4160"
+                },
+                {
+                    "img_name": "0051",
+                    "runtime": "0.5113",
+                    "niqe": "6.0288"
+                },
+                {
+                    "img_name": "0052",
+                    "runtime": "1.1333",
+                    "niqe": "6.3819"
+                },
+                {
+                    "img_name": "0053",
+                    "runtime": "0.5022",
+                    "niqe": "6.0264"
+                },
+                {
+                    "img_name": "0054",
+                    "runtime": "0.4988",
+                    "niqe": "5.6661"
+                },
+                {
+                    "img_name": "0055",
+                    "runtime": "1.1346",
+                    "niqe": "5.4885"
+                },
+                {
+                    "img_name": "0056",
+                    "runtime": "0.4957",
+                    "niqe": "5.9597"
+                },
+                {
+                    "img_name": "0057",
+                    "runtime": "0.4892",
+                    "niqe": "6.9086"
+                },
+                {
+                    "img_name": "0058",
+                    "runtime": "1.8306",
+                    "niqe": "6.3049"
+                },
+                {
+                    "img_name": "0059",
+                    "runtime": "2.8741",
+                    "niqe": "5.6198"
+                },
+                {
+                    "img_name": "0060",
+                    "runtime": "0.4886",
+                    "niqe": "5.0270"
+                },
+                {
+                    "img_name": "0061",
+                    "runtime": "0.4706",
+                    "niqe": "5.3745"
+                },
+                {
+                    "img_name": "0062",
+                    "runtime": "0.4843",
+                    "niqe": "4.4628"
+                },
+                {
+                    "img_name": "0063",
+                    "runtime": "0.4743",
+                    "niqe": "6.5754"
+                },
+                {
+                    "img_name": "0064",
+                    "runtime": "0.4828",
+                    "niqe": "4.8194"
+                },
+                {
+                    "img_name": "0065",
+                    "runtime": "0.4655",
+                    "niqe": "5.7993"
+                },
+                {
+                    "img_name": "0066",
+                    "runtime": "0.5449",
+                    "niqe": "5.4238"
+                },
+                {
+                    "img_name": "0067",
+                    "runtime": "1.2463",
+                    "niqe": "4.8336"
+                },
+                {
+                    "img_name": "0068",
+                    "runtime": "0.5046",
+                    "niqe": "5.8658"
+                },
+                {
+                    "img_name": "0069",
+                    "runtime": "0.5365",
+                    "niqe": "6.3543"
+                },
+                {
+                    "img_name": "0070",
+                    "runtime": "0.5248",
+                    "niqe": "5.7212"
+                },
+                {
+                    "img_name": "0071",
+                    "runtime": "0.5953",
+                    "niqe": "5.0127"
+                },
+                {
+                    "img_name": "0072",
+                    "runtime": "0.6657",
+                    "niqe": "5.4233"
+                },
+                {
+                    "img_name": "0073",
+                    "runtime": "0.5520",
+                    "niqe": "6.0810"
+                },
+                {
+                    "img_name": "0074",
+                    "runtime": "0.5780",
+                    "niqe": "4.6438"
+                },
+                {
+                    "img_name": "0075",
+                    "runtime": "3.0514",
+                    "niqe": "4.7654"
+                },
+                {
+                    "img_name": "0076",
+                    "runtime": "0.4914",
+                    "niqe": "5.9228"
+                },
+                {
+                    "img_name": "0077",
+                    "runtime": "0.4779",
+                    "niqe": "6.1707"
+                },
+                {
+                    "img_name": "0078",
+                    "runtime": "2.5392",
+                    "niqe": "4.8261"
+                },
+                {
+                    "img_name": "0079",
+                    "runtime": "1.5155",
+                    "niqe": "6.5403"
+                },
+                {
+                    "img_name": "0080",
+                    "runtime": "0.5586",
+                    "niqe": "5.3055"
+                },
+                {
+                    "img_name": "0081",
+                    "runtime": "5.3438",
+                    "niqe": "7.5980"
+                },
+                {
+                    "img_name": "0082",
+                    "runtime": "0.4732",
+                    "niqe": "5.2538"
+                },
+                {
+                    "img_name": "0083",
+                    "runtime": "0.5666",
+                    "niqe": "4.7766"
+                },
+                {
+                    "img_name": "0084",
+                    "runtime": "0.5601",
+                    "niqe": "5.6608"
+                },
+                {
+                    "img_name": "0085",
+                    "runtime": "0.5519",
+                    "niqe": "5.8679"
+                },
+                {
+                    "img_name": "0086",
+                    "runtime": "0.5772",
+                    "niqe": "5.8596"
+                },
+                {
+                    "img_name": "0087",
+                    "runtime": "0.5429",
+                    "niqe": "6.8917"
+                },
+                {
+                    "img_name": "0088",
+                    "runtime": "0.5852",
+                    "niqe": "5.5255"
+                },
+                {
+                    "img_name": "0089",
+                    "runtime": "0.5616",
+                    "niqe": "5.2453"
+                },
+                {
+                    "img_name": "0090",
+                    "runtime": "0.7984",
+                    "niqe": "4.9183"
+                },
+                {
+                    "img_name": "0091",
+                    "runtime": "0.4892",
+                    "niqe": "5.8624"
+                },
+                {
+                    "img_name": "0092",
+                    "runtime": "0.4893",
+                    "niqe": "5.5001"
+                },
+                {
+                    "img_name": "0093",
+                    "runtime": "0.5009",
+                    "niqe": "5.6228"
+                },
+                {
+                    "img_name": "0094",
+                    "runtime": "0.5174",
+                    "niqe": "5.4828"
+                },
+                {
+                    "img_name": "0095",
+                    "runtime": "0.5030",
+                    "niqe": "5.6477"
+                },
+                {
+                    "img_name": "0096",
+                    "runtime": "0.4889",
+                    "niqe": "6.1360"
+                },
+                {
+                    "img_name": "0097",
+                    "runtime": "5.3153",
+                    "niqe": "4.3311"
+                },
+                {
+                    "img_name": "0098",
+                    "runtime": "0.5301",
+                    "niqe": "9.4156"
+                },
+                {
+                    "img_name": "0099",
+                    "runtime": "0.6151",
+                    "niqe": "6.5775"
+                },
+                {
+                    "img_name": "0100",
+                    "runtime": "0.5836",
+                    "niqe": "4.4228"
+                },
+                {
+                    "img_name": "0101",
+                    "runtime": "0.6146",
+                    "niqe": "5.7864"
+                },
+                {
+                    "img_name": "0102",
+                    "runtime": "2.6823",
+                    "niqe": "5.3712"
+                },
+                {
+                    "img_name": "0103",
+                    "runtime": "0.4860",
+                    "niqe": "6.9356"
+                },
+                {
+                    "img_name": "0104",
+                    "runtime": "4.0396",
+                    "niqe": "3.9670"
+                },
+                {
+                    "img_name": "0105",
+                    "runtime": "0.5172",
+                    "niqe": "4.8460"
+                },
+                {
+                    "img_name": "0106",
+                    "runtime": "0.5093",
+                    "niqe": "5.2634"
+                },
+                {
+                    "img_name": "0107",
+                    "runtime": "2.3344",
+                    "niqe": "4.5092"
+                },
+                {
+                    "img_name": "0108",
+                    "runtime": "0.4755",
+                    "niqe": "5.4232"
+                },
+                {
+                    "img_name": "0109",
+                    "runtime": "1.9698",
+                    "niqe": "6.4219"
+                },
+                {
+                    "img_name": "0110",
+                    "runtime": "0.4998",
+                    "niqe": "5.3547"
+                },
+                {
+                    "img_name": "0111",
+                    "runtime": "0.4575",
+                    "niqe": "7.7840"
+                },
+                {
+                    "img_name": "0112",
+                    "runtime": "2.1731",
+                    "niqe": "5.4768"
+                },
+                {
+                    "img_name": "0113",
+                    "runtime": "10.8981",
+                    "niqe": "5.4629"
+                },
+                {
+                    "img_name": "0114",
+                    "runtime": "0.4904",
+                    "niqe": "6.6578"
+                },
+                {
+                    "img_name": "0115",
+                    "runtime": "4.6288",
+                    "niqe": "6.7392"
+                },
+                {
+                    "img_name": "0116",
+                    "runtime": "5.2625",
+                    "niqe": "4.5199"
+                },
+                {
+                    "img_name": "0117",
+                    "runtime": "0.4765",
+                    "niqe": "6.8360"
+                },
+                {
+                    "img_name": "0118",
+                    "runtime": "0.4781",
+                    "niqe": "4.4222"
+                },
+                {
+                    "img_name": "0119",
+                    "runtime": "0.5085",
+                    "niqe": "5.0964"
+                },
+                {
+                    "img_name": "0120",
+                    "runtime": "2.7957",
+                    "niqe": "6.5719"
+                },
+                {
+                    "img_name": "0121",
+                    "runtime": "0.4965",
+                    "niqe": "5.6427"
+                },
+                {
+                    "img_name": "0122",
+                    "runtime": "0.5045",
+                    "niqe": "5.0450"
+                },
+                {
+                    "img_name": "0123",
+                    "runtime": "0.4772",
+                    "niqe": "6.9884"
+                },
+                {
+                    "img_name": "0124",
+                    "runtime": "0.4925",
+                    "niqe": "5.8543"
+                },
+                {
+                    "img_name": "0125",
+                    "runtime": "0.4915",
+                    "niqe": "5.3698"
+                },
+                {
+                    "img_name": "0126",
+                    "runtime": "1.1029",
+                    "niqe": "4.3974"
+                },
+                {
+                    "img_name": "0127",
+                    "runtime": "0.4908",
+                    "niqe": "5.6333"
+                },
+                {
+                    "img_name": "0128",
+                    "runtime": "0.5083",
+                    "niqe": "4.6722"
+                },
+                {
+                    "img_name": "0129",
+                    "runtime": "0.5061",
+                    "niqe": "5.0739"
+                },
+                {
+                    "img_name": "0130",
+                    "runtime": "0.5064",
+                    "niqe": "6.8675"
+                },
+                {
+                    "img_name": "0131",
+                    "runtime": "0.4659",
+                    "niqe": "5.5676"
+                },
+                {
+                    "img_name": "0132",
+                    "runtime": "0.4804",
+                    "niqe": "5.7464"
+                },
+                {
+                    "img_name": "0133",
+                    "runtime": "0.5031",
+                    "niqe": "4.6769"
+                },
+                {
+                    "img_name": "0134",
+                    "runtime": "0.5048",
+                    "niqe": "5.4254"
+                },
+                {
+                    "img_name": "0135",
+                    "runtime": "0.5138",
+                    "niqe": "5.7515"
+                },
+                {
+                    "img_name": "0136",
+                    "runtime": "0.8084",
+                    "niqe": "5.7410"
+                },
+                {
+                    "img_name": "0137",
+                    "runtime": "5.3924",
+                    "niqe": "4.3894"
+                },
+                {
+                    "img_name": "0138",
+                    "runtime": "0.4772",
+                    "niqe": "5.4368"
+                },
+                {
+                    "img_name": "0139",
+                    "runtime": "0.5168",
+                    "niqe": "6.3750"
+                },
+                {
+                    "img_name": "0140",
+                    "runtime": "0.5605",
+                    "niqe": "4.7797"
+                },
+                {
+                    "img_name": "0141",
+                    "runtime": "1.3340",
+                    "niqe": "7.2755"
+                },
+                {
+                    "img_name": "0142",
+                    "runtime": "5.3865",
+                    "niqe": "5.1623"
+                },
+                {
+                    "img_name": "0143",
+                    "runtime": "1.0905",
+                    "niqe": "5.7597"
+                },
+                {
+                    "img_name": "0144",
+                    "runtime": "0.7259",
+                    "niqe": "6.6472"
+                },
+                {
+                    "img_name": "0145",
+                    "runtime": "0.4743",
+                    "niqe": "5.9621"
+                },
+                {
+                    "img_name": "0146",
+                    "runtime": "0.4680",
+                    "niqe": "5.4045"
+                },
+                {
+                    "img_name": "0147",
+                    "runtime": "0.9501",
+                    "niqe": "4.6359"
+                },
+                {
+                    "img_name": "0148",
+                    "runtime": "0.5408",
+                    "niqe": "5.2082"
+                },
+                {
+                    "img_name": "0149",
+                    "runtime": "5.6056",
+                    "niqe": "4.3918"
+                },
+                {
+                    "img_name": "0150",
+                    "runtime": "0.4670",
+                    "niqe": "5.3726"
+                },
+                {
+                    "img_name": "0151",
+                    "runtime": "0.4690",
+                    "niqe": "4.4948"
+                },
+                {
+                    "img_name": "0152",
+                    "runtime": "0.4840",
+                    "niqe": "5.2367"
+                },
+                {
+                    "img_name": "0153",
+                    "runtime": "0.4768",
+                    "niqe": "6.8063"
+                },
+                {
+                    "img_name": "0154",
+                    "runtime": "0.4822",
+                    "niqe": "5.6147"
+                },
+                {
+                    "img_name": "0155",
+                    "runtime": "0.4738",
+                    "niqe": "6.6802"
+                },
+                {
+                    "img_name": "0156",
+                    "runtime": "0.4924",
+                    "niqe": "6.3287"
+                },
+                {
+                    "img_name": "0157",
+                    "runtime": "0.8290",
+                    "niqe": "4.6488"
+                },
+                {
+                    "img_name": "0158",
+                    "runtime": "0.4810",
+                    "niqe": "5.6862"
+                },
+                {
+                    "img_name": "0159",
+                    "runtime": "1.1306",
+                    "niqe": "5.2119"
+                },
+                {
+                    "img_name": "0160",
+                    "runtime": "0.5175",
+                    "niqe": "5.9412"
+                },
+                {
+                    "img_name": "0161",
+                    "runtime": "1.1314",
+                    "niqe": "4.8594"
+                },
+                {
+                    "img_name": "0162",
+                    "runtime": "4.6717",
+                    "niqe": "4.2735"
+                },
+                {
+                    "img_name": "0163",
+                    "runtime": "0.5005",
+                    "niqe": "4.6537"
+                },
+                {
+                    "img_name": "0164",
+                    "runtime": "0.4992",
+                    "niqe": "5.3001"
+                },
+                {
+                    "img_name": "0165",
+                    "runtime": "0.5139",
+                    "niqe": "5.9669"
+                },
+                {
+                    "img_name": "0166",
+                    "runtime": "1.1189",
+                    "niqe": "4.3974"
+                },
+                {
+                    "img_name": "0167",
+                    "runtime": "5.1608",
+                    "niqe": "4.2809"
+                },
+                {
+                    "img_name": "0168",
+                    "runtime": "0.4805",
+                    "niqe": "5.0273"
+                },
+                {
+                    "img_name": "0169",
+                    "runtime": "2.5102",
+                    "niqe": "6.1760"
+                },
+                {
+                    "img_name": "0170",
+                    "runtime": "0.4955",
+                    "niqe": "7.0876"
+                },
+                {
+                    "img_name": "0171",
+                    "runtime": "5.4047",
+                    "niqe": "4.6661"
+                },
+                {
+                    "img_name": "0172",
+                    "runtime": "0.4711",
+                    "niqe": "5.4775"
+                },
+                {
+                    "img_name": "0173",
+                    "runtime": "1.0721",
+                    "niqe": "5.9758"
+                },
+                {
+                    "img_name": "0174",
+                    "runtime": "2.5818",
+                    "niqe": "6.1527"
+                },
+                {
+                    "img_name": "0175",
+                    "runtime": "0.4853",
+                    "niqe": "5.3362"
+                },
+                {
+                    "img_name": "0176",
+                    "runtime": "0.5061",
+                    "niqe": "6.1913"
+                },
+                {
+                    "img_name": "0177",
+                    "runtime": "0.5017",
+                    "niqe": "5.6706"
+                },
+                {
+                    "img_name": "0178",
+                    "runtime": "0.5883",
+                    "niqe": "5.7700"
+                },
+                {
+                    "img_name": "0179",
+                    "runtime": "0.5621",
+                    "niqe": "4.2944"
+                },
+                {
+                    "img_name": "0180",
+                    "runtime": "0.6173",
+                    "niqe": "5.3532"
+                },
+                {
+                    "img_name": "0181",
+                    "runtime": "0.5775",
+                    "niqe": "6.2784"
+                },
+                {
+                    "img_name": "0182",
+                    "runtime": "1.8118",
+                    "niqe": "6.8298"
+                },
+                {
+                    "img_name": "0183",
+                    "runtime": "5.6439",
+                    "niqe": "7.1282"
+                },
+                {
+                    "img_name": "0184",
+                    "runtime": "1.0154",
+                    "niqe": "5.6715"
+                },
+                {
+                    "img_name": "0185",
+                    "runtime": "0.4662",
+                    "niqe": "5.5998"
+                },
+                {
+                    "img_name": "0186",
+                    "runtime": "5.1541",
+                    "niqe": "7.3193"
+                },
+                {
+                    "img_name": "0187",
+                    "runtime": "1.4657",
+                    "niqe": "3.9848"
+                },
+                {
+                    "img_name": "0188",
+                    "runtime": "0.4975",
+                    "niqe": "4.4325"
+                },
+                {
+                    "img_name": "0189",
+                    "runtime": "0.4929",
+                    "niqe": "6.2059"
+                },
+                {
+                    "img_name": "0190",
+                    "runtime": "0.5055",
+                    "niqe": "5.6831"
+                },
+                {
+                    "img_name": "0191",
+                    "runtime": "0.4805",
+                    "niqe": "4.9467"
+                },
+                {
+                    "img_name": "0192",
+                    "runtime": "0.5813",
+                    "niqe": "6.7974"
+                },
+                {
+                    "img_name": "0193",
+                    "runtime": "0.5662",
+                    "niqe": "5.1102"
+                },
+                {
+                    "img_name": "0194",
+                    "runtime": "0.7921",
+                    "niqe": "5.0999"
+                },
+                {
+                    "img_name": "0195",
+                    "runtime": "1.1226",
+                    "niqe": "5.5235"
+                },
+                {
+                    "img_name": "0196",
+                    "runtime": "0.7947",
+                    "niqe": "5.1903"
+                },
+                {
+                    "img_name": "0197",
+                    "runtime": "0.5271",
+                    "niqe": "6.0108"
+                },
+                {
+                    "img_name": "0198",
+                    "runtime": "0.5103",
+                    "niqe": "5.1006"
+                },
+                {
+                    "img_name": "0199",
+                    "runtime": "0.5173",
+                    "niqe": "5.0823"
+                },
+                {
+                    "img_name": "0200",
+                    "runtime": "0.4985",
+                    "niqe": "6.5870"
+                },
+                {
+                    "img_name": "0201",
+                    "runtime": "0.5192",
+                    "niqe": "4.9516"
+                },
+                {
+                    "img_name": "0202",
+                    "runtime": "0.6510",
+                    "niqe": "5.6195"
+                },
+                {
+                    "img_name": "0203",
+                    "runtime": "0.5892",
+                    "niqe": "5.2084"
+                },
+                {
+                    "img_name": "0204",
+                    "runtime": "1.2969",
+                    "niqe": "5.4843"
+                },
+                {
+                    "img_name": "0205",
+                    "runtime": "0.5009",
+                    "niqe": "4.9760"
+                },
+                {
+                    "img_name": "0206",
+                    "runtime": "0.4742",
+                    "niqe": "5.7026"
+                },
+                {
+                    "img_name": "0207",
+                    "runtime": "0.4778",
+                    "niqe": "6.2628"
+                },
+                {
+                    "img_name": "0208",
+                    "runtime": "1.1307",
+                    "niqe": "5.2549"
+                },
+                {
+                    "img_name": "0209",
+                    "runtime": "1.1603",
+                    "niqe": "4.6276"
+                },
+                {
+                    "img_name": "0210",
+                    "runtime": "6.8227",
+                    "niqe": "4.7979"
+                },
+                {
+                    "img_name": "0211",
+                    "runtime": "0.4754",
+                    "niqe": "6.2652"
+                },
+                {
+                    "img_name": "0212",
+                    "runtime": "1.0956",
+                    "niqe": "6.1135"
+                },
+                {
+                    "img_name": "0213",
+                    "runtime": "0.7733",
+                    "niqe": "5.3434"
+                },
+                {
+                    "img_name": "0214",
+                    "runtime": "2.6427",
+                    "niqe": "4.9501"
+                },
+                {
+                    "img_name": "0215",
+                    "runtime": "0.4819",
+                    "niqe": "5.6259"
+                },
+                {
+                    "img_name": "0216",
+                    "runtime": "0.4793",
+                    "niqe": "5.8923"
+                },
+                {
+                    "img_name": "0217",
+                    "runtime": "0.4928",
+                    "niqe": "6.5359"
+                },
+                {
+                    "img_name": "0218",
+                    "runtime": "5.3074",
+                    "niqe": "6.2116"
+                },
+                {
+                    "img_name": "0219",
+                    "runtime": "5.2833",
+                    "niqe": "5.1146"
+                },
+                {
+                    "img_name": "0220",
+                    "runtime": "0.4596",
+                    "niqe": "4.9136"
+                },
+                {
+                    "img_name": "0221",
+                    "runtime": "0.4829",
+                    "niqe": "5.0952"
+                },
+                {
+                    "img_name": "0222",
+                    "runtime": "0.4991",
+                    "niqe": "5.3825"
+                },
+                {
+                    "img_name": "0223",
+                    "runtime": "0.4991",
+                    "niqe": "5.0781"
+                },
+                {
+                    "img_name": "0224",
+                    "runtime": "1.1565",
+                    "niqe": "4.7386"
+                },
+                {
+                    "img_name": "0225",
+                    "runtime": "0.5047",
+                    "niqe": "5.8326"
+                },
+                {
+                    "img_name": "0226",
+                    "runtime": "3.0072",
+                    "niqe": "5.1253"
+                },
+                {
+                    "img_name": "0227",
+                    "runtime": "0.4991",
+                    "niqe": "6.5706"
+                },
+                {
+                    "img_name": "0228",
+                    "runtime": "0.4720",
+                    "niqe": "6.1421"
+                },
+                {
+                    "img_name": "0229",
+                    "runtime": "1.5248",
+                    "niqe": "7.6051"
+                },
+                {
+                    "img_name": "0230",
+                    "runtime": "1.5034",
+                    "niqe": "5.2105"
+                },
+                {
+                    "img_name": "0231",
+                    "runtime": "0.4964",
+                    "niqe": "4.7951"
+                },
+                {
+                    "img_name": "0232",
+                    "runtime": "0.5119",
+                    "niqe": "5.5079"
+                },
+                {
+                    "img_name": "0233",
+                    "runtime": "1.4906",
+                    "niqe": "4.4235"
+                },
+                {
+                    "img_name": "0234",
+                    "runtime": "1.1517",
+                    "niqe": "5.1665"
+                },
+                {
+                    "img_name": "0235",
+                    "runtime": "1.1244",
+                    "niqe": "4.4167"
+                },
+                {
+                    "img_name": "0236",
+                    "runtime": "0.4640",
+                    "niqe": "6.3771"
+                },
+                {
+                    "img_name": "0237",
+                    "runtime": "0.5061",
+                    "niqe": "5.8847"
+                },
+                {
+                    "img_name": "0238",
+                    "runtime": "2.7150",
+                    "niqe": "5.4968"
+                },
+                {
+                    "img_name": "0239",
+                    "runtime": "0.7295",
+                    "niqe": "5.8049"
+                },
+                {
+                    "img_name": "0240",
+                    "runtime": "0.4754",
+                    "niqe": "6.4947"
+                },
+                {
+                    "img_name": "0241",
+                    "runtime": "0.5055",
+                    "niqe": "6.5662"
+                },
+                {
+                    "img_name": "0242",
+                    "runtime": "5.4563",
+                    "niqe": "4.8325"
+                },
+                {
+                    "img_name": "0243",
+                    "runtime": "0.4686",
+                    "niqe": "5.3851"
+                },
+                {
+                    "img_name": "0244",
+                    "runtime": "0.4916",
+                    "niqe": "4.9829"
+                },
+                {
+                    "img_name": "0245",
+                    "runtime": "0.5310",
+                    "niqe": "6.0498"
+                },
+                {
+                    "img_name": "0246",
+                    "runtime": "2.7644",
+                    "niqe": "6.9920"
+                },
+                {
+                    "img_name": "0247",
+                    "runtime": "0.4994",
+                    "niqe": "5.4801"
+                },
+                {
+                    "img_name": "0248",
+                    "runtime": "0.4744",
+                    "niqe": "6.5824"
+                },
+                {
+                    "img_name": "0249",
+                    "runtime": "1.1090",
+                    "niqe": "5.1192"
+                },
+                {
+                    "img_name": "0250",
+                    "runtime": "1.1084",
+                    "niqe": "5.2865"
+                },
+                {
+                    "img_name": "0251",
+                    "runtime": "0.5049",
+                    "niqe": "4.8417"
+                },
+                {
+                    "img_name": "0252",
+                    "runtime": "0.5054",
+                    "niqe": "8.4144"
+                },
+                {
+                    "img_name": "0253",
+                    "runtime": "0.4975",
+                    "niqe": "4.7632"
+                },
+                {
+                    "img_name": "0254",
+                    "runtime": "0.4965",
+                    "niqe": "6.4319"
+                },
+                {
+                    "img_name": "0255",
+                    "runtime": "5.5489",
+                    "niqe": "4.5548"
+                },
+                {
+                    "img_name": "0256",
+                    "runtime": "0.4631",
+                    "niqe": "5.5010"
+                },
+                {
+                    "img_name": "0257",
+                    "runtime": "0.4811",
+                    "niqe": "4.7900"
+                },
+                {
+                    "img_name": "0258",
+                    "runtime": "0.4930",
+                    "niqe": "5.7403"
+                },
+                {
+                    "img_name": "0259",
+                    "runtime": "0.5007",
+                    "niqe": "5.1177"
+                },
+                {
+                    "img_name": "0260",
+                    "runtime": "0.5058",
+                    "niqe": "6.1947"
+                },
+                {
+                    "img_name": "0261",
+                    "runtime": "1.4859",
+                    "niqe": "7.5524"
+                },
+                {
+                    "img_name": "0262",
+                    "runtime": "1.1298",
+                    "niqe": "5.1067"
+                },
+                {
+                    "img_name": "0263",
+                    "runtime": "0.4976",
+                    "niqe": "4.7206"
+                },
+                {
+                    "img_name": "0264",
+                    "runtime": "0.7362",
+                    "niqe": "6.0395"
+                },
+                {
+                    "img_name": "0265",
+                    "runtime": "1.0434",
+                    "niqe": "6.1481"
+                },
+                {
+                    "img_name": "0266",
+                    "runtime": "0.4788",
+                    "niqe": "5.3617"
+                },
+                {
+                    "img_name": "0267",
+                    "runtime": "0.4928",
+                    "niqe": "5.8654"
+                },
+                {
+                    "img_name": "0268",
+                    "runtime": "4.4979",
+                    "niqe": "9.7637"
+                },
+                {
+                    "img_name": "0269",
+                    "runtime": "0.4592",
+                    "niqe": "6.0878"
+                },
+                {
+                    "img_name": "0270",
+                    "runtime": "1.0581",
+                    "niqe": "6.3543"
+                },
+                {
+                    "img_name": "0271",
+                    "runtime": "0.4979",
+                    "niqe": "5.2618"
+                },
+                {
+                    "img_name": "0272",
+                    "runtime": "0.5812",
+                    "niqe": "6.6373"
+                },
+                {
+                    "img_name": "0273",
+                    "runtime": "2.9400",
+                    "niqe": "6.1682"
+                },
+                {
+                    "img_name": "0274",
+                    "runtime": "1.1237",
+                    "niqe": "6.0167"
+                },
+                {
+                    "img_name": "0275",
+                    "runtime": "0.4902",
+                    "niqe": "5.8000"
+                },
+                {
+                    "img_name": "0276",
+                    "runtime": "0.7399",
+                    "niqe": "5.3992"
+                },
+                {
+                    "img_name": "0277",
+                    "runtime": "0.5041",
+                    "niqe": "4.6699"
+                },
+                {
+                    "img_name": "0278",
+                    "runtime": "0.5104",
+                    "niqe": "4.9046"
+                },
+                {
+                    "img_name": "0279",
+                    "runtime": "0.5118",
+                    "niqe": "5.8423"
+                },
+                {
+                    "img_name": "0280",
+                    "runtime": "0.5000",
+                    "niqe": "6.2832"
+                },
+                {
+                    "img_name": "0281",
+                    "runtime": "2.6468",
+                    "niqe": "4.2805"
+                },
+                {
+                    "img_name": "0282",
+                    "runtime": "0.4954",
+                    "niqe": "5.7050"
+                },
+                {
+                    "img_name": "0283",
+                    "runtime": "0.4898",
+                    "niqe": "5.3668"
+                },
+                {
+                    "img_name": "0284",
+                    "runtime": "0.5025",
+                    "niqe": "6.3846"
+                },
+                {
+                    "img_name": "0285",
+                    "runtime": "0.4892",
+                    "niqe": "7.4438"
+                },
+                {
+                    "img_name": "0286",
+                    "runtime": "0.6804",
+                    "niqe": "4.1575"
+                },
+                {
+                    "img_name": "0287",
+                    "runtime": "3.5360",
+                    "niqe": "5.7424"
+                },
+                {
+                    "img_name": "0288",
+                    "runtime": "6.2116",
+                    "niqe": "6.4905"
+                },
+                {
+                    "img_name": "0289",
+                    "runtime": "0.5537",
+                    "niqe": "5.7096"
+                },
+                {
+                    "img_name": "0290",
+                    "runtime": "6.3796",
+                    "niqe": "4.9789"
+                },
+                {
+                    "img_name": "0291",
+                    "runtime": "0.4914",
+                    "niqe": "6.4401"
+                },
+                {
+                    "img_name": "0292",
+                    "runtime": "0.5028",
+                    "niqe": "4.7221"
+                },
+                {
+                    "img_name": "0293",
+                    "runtime": "0.5060",
+                    "niqe": "4.3452"
+                },
+                {
+                    "img_name": "0294",
+                    "runtime": "0.5006",
+                    "niqe": "6.0902"
+                },
+                {
+                    "img_name": "0295",
+                    "runtime": "0.5011",
+                    "niqe": "5.8018"
+                },
+                {
+                    "img_name": "0296",
+                    "runtime": "1.4437",
+                    "niqe": "4.6000"
+                },
+                {
+                    "img_name": "0297",
+                    "runtime": "1.9449",
+                    "niqe": "6.0236"
+                },
+                {
+                    "img_name": "0298",
+                    "runtime": "0.4983",
+                    "niqe": "5.1715"
+                },
+                {
+                    "img_name": "0299",
+                    "runtime": "0.5054",
+                    "niqe": "5.0257"
+                },
+                {
+                    "img_name": "0300",
+                    "runtime": "0.4969",
+                    "niqe": "5.7887"
+                },
+                {
+                    "img_name": "0301",
+                    "runtime": "0.4992",
+                    "niqe": "5.7649"
+                },
+                {
+                    "img_name": "0302",
+                    "runtime": "0.4973",
+                    "niqe": "5.9304"
+                },
+                {
+                    "img_name": "0303",
+                    "runtime": "0.5093",
+                    "niqe": "5.2163"
+                },
+                {
+                    "img_name": "0304",
+                    "runtime": "0.4913",
+                    "niqe": "5.8245"
+                },
+                {
+                    "img_name": "0305",
+                    "runtime": "0.5053",
+                    "niqe": "4.6420"
+                },
+                {
+                    "img_name": "0306",
+                    "runtime": "0.5079",
+                    "niqe": "5.4915"
+                },
+                {
+                    "img_name": "0307",
+                    "runtime": "0.5131",
+                    "niqe": "5.6998"
+                },
+                {
+                    "img_name": "0308",
+                    "runtime": "5.2731",
+                    "niqe": "5.3053"
+                },
+                {
+                    "img_name": "0309",
+                    "runtime": "0.7690",
+                    "niqe": "4.9667"
+                },
+                {
+                    "img_name": "0310",
+                    "runtime": "0.5005",
+                    "niqe": "6.9651"
+                },
+                {
+                    "img_name": "0311",
+                    "runtime": "0.4994",
+                    "niqe": "5.5301"
+                },
+                {
+                    "img_name": "0312",
+                    "runtime": "0.4944",
+                    "niqe": "6.5267"
+                },
+                {
+                    "img_name": "0313",
+                    "runtime": "0.4917",
+                    "niqe": "5.6370"
+                },
+                {
+                    "img_name": "0314",
+                    "runtime": "0.5052",
+                    "niqe": "5.8246"
+                },
+                {
+                    "img_name": "0315",
+                    "runtime": "0.4784",
+                    "niqe": "6.4672"
+                },
+                {
+                    "img_name": "0316",
+                    "runtime": "0.5008",
+                    "niqe": "6.5732"
+                },
+                {
+                    "img_name": "0317",
+                    "runtime": "4.6556",
+                    "niqe": "5.8856"
+                },
+                {
+                    "img_name": "0318",
+                    "runtime": "6.3662",
+                    "niqe": "4.7096"
+                },
+                {
+                    "img_name": "0319",
+                    "runtime": "6.1156",
+                    "niqe": "5.9669"
+                },
+                {
+                    "img_name": "0320",
+                    "runtime": "0.4845",
+                    "niqe": "5.6627"
+                },
+                {
+                    "img_name": "0321",
+                    "runtime": "0.5102",
+                    "niqe": "5.9677"
+                },
+                {
+                    "img_name": "0322",
+                    "runtime": "0.5902",
+                    "niqe": "4.9836"
+                },
+                {
+                    "img_name": "0323",
+                    "runtime": "0.8012",
+                    "niqe": "6.0984"
+                },
+                {
+                    "img_name": "0324",
+                    "runtime": "0.5084",
+                    "niqe": "5.3229"
+                },
+                {
+                    "img_name": "0325",
+                    "runtime": "0.5107",
+                    "niqe": "5.4966"
+                },
+                {
+                    "img_name": "0326",
+                    "runtime": "0.5068",
+                    "niqe": "5.6117"
+                },
+                {
+                    "img_name": "0327",
+                    "runtime": "0.5083",
+                    "niqe": "5.4977"
+                },
+                {
+                    "img_name": "0328",
+                    "runtime": "1.1303",
+                    "niqe": "6.1757"
+                },
+                {
+                    "img_name": "0329",
+                    "runtime": "0.5157",
+                    "niqe": "7.0187"
+                },
+                {
+                    "img_name": "0330",
+                    "runtime": "6.3475",
+                    "niqe": "5.0819"
+                },
+                {
+                    "img_name": "0331",
+                    "runtime": "0.4956",
+                    "niqe": "5.5697"
+                },
+                {
+                    "img_name": "0332",
+                    "runtime": "1.1615",
+                    "niqe": "7.7093"
+                },
+                {
+                    "img_name": "0333",
+                    "runtime": "0.5066",
+                    "niqe": "5.8713"
+                },
+                {
+                    "img_name": "0334",
+                    "runtime": "0.7026",
+                    "niqe": "5.3308"
+                },
+                {
+                    "img_name": "0335",
+                    "runtime": "0.4842",
+                    "niqe": "5.9310"
+                },
+                {
+                    "img_name": "0336",
+                    "runtime": "0.8020",
+                    "niqe": "5.4239"
+                },
+                {
+                    "img_name": "0337",
+                    "runtime": "1.1152",
+                    "niqe": "4.7913"
+                },
+                {
+                    "img_name": "0338",
+                    "runtime": "0.5066",
+                    "niqe": "4.9703"
+                },
+                {
+                    "img_name": "0339",
+                    "runtime": "0.5186",
+                    "niqe": "9.0307"
+                },
+                {
+                    "img_name": "0340",
+                    "runtime": "0.4969",
+                    "niqe": "5.2539"
+                },
+                {
+                    "img_name": "0341",
+                    "runtime": "0.4818",
+                    "niqe": "5.0222"
+                },
+                {
+                    "img_name": "0342",
+                    "runtime": "0.5013",
+                    "niqe": "5.5517"
+                },
+                {
+                    "img_name": "0343",
+                    "runtime": "1.1645",
+                    "niqe": "5.0157"
+                },
+                {
+                    "img_name": "0344",
+                    "runtime": "0.4941",
+                    "niqe": "5.2994"
+                },
+                {
+                    "img_name": "0345",
+                    "runtime": "1.0630",
+                    "niqe": "6.0933"
+                },
+                {
+                    "img_name": "0346",
+                    "runtime": "6.4297",
+                    "niqe": "4.9405"
+                },
+                {
+                    "img_name": "0347",
+                    "runtime": "0.4965",
+                    "niqe": "5.4412"
+                },
+                {
+                    "img_name": "0348",
+                    "runtime": "0.4973",
+                    "niqe": "5.5842"
+                },
+                {
+                    "img_name": "0349",
+                    "runtime": "0.5092",
+                    "niqe": "5.4719"
+                },
+                {
+                    "img_name": "0350",
+                    "runtime": "0.5037",
+                    "niqe": "5.5686"
+                },
+                {
+                    "img_name": "0351",
+                    "runtime": "0.4912",
+                    "niqe": "9.7848"
+                },
+                {
+                    "img_name": "0352",
+                    "runtime": "6.2946",
+                    "niqe": "4.7340"
+                },
+                {
+                    "img_name": "0353",
+                    "runtime": "0.4716",
+                    "niqe": "6.0551"
+                },
+                {
+                    "img_name": "0354",
+                    "runtime": "0.5031",
+                    "niqe": "5.6334"
+                },
+                {
+                    "img_name": "0355",
+                    "runtime": "0.5057",
+                    "niqe": "5.7758"
+                },
+                {
+                    "img_name": "0356",
+                    "runtime": "0.4954",
+                    "niqe": "5.4888"
+                },
+                {
+                    "img_name": "0357",
+                    "runtime": "0.5098",
+                    "niqe": "4.8535"
+                },
+                {
+                    "img_name": "0358",
+                    "runtime": "0.5144",
+                    "niqe": "4.9648"
+                },
+                {
+                    "img_name": "0359",
+                    "runtime": "0.4832",
+                    "niqe": "6.0400"
+                },
+                {
+                    "img_name": "0360",
+                    "runtime": "0.5194",
+                    "niqe": "6.9657"
+                },
+                {
+                    "img_name": "0361",
+                    "runtime": "0.5091",
+                    "niqe": "5.4175"
+                },
+                {
+                    "img_name": "0362",
+                    "runtime": "0.5150",
+                    "niqe": "4.7695"
+                },
+                {
+                    "img_name": "0363",
+                    "runtime": "1.1254",
+                    "niqe": "4.9983"
+                },
+                {
+                    "img_name": "0364",
+                    "runtime": "6.3800",
+                    "niqe": "5.5528"
+                },
+                {
+                    "img_name": "0365",
+                    "runtime": "2.5218",
+                    "niqe": "4.7227"
+                },
+                {
+                    "img_name": "0366",
+                    "runtime": "1.4527",
+                    "niqe": "4.6136"
+                },
+                {
+                    "img_name": "0367",
+                    "runtime": "0.5158",
+                    "niqe": "5.1575"
+                },
+                {
+                    "img_name": "0368",
+                    "runtime": "0.5234",
+                    "niqe": "5.5169"
+                },
+                {
+                    "img_name": "0369",
+                    "runtime": "0.4913",
+                    "niqe": "6.0741"
+                },
+                {
+                    "img_name": "0370",
+                    "runtime": "0.5034",
+                    "niqe": "6.3171"
+                },
+                {
+                    "img_name": "0371",
+                    "runtime": "2.6838",
+                    "niqe": "5.5157"
+                },
+                {
+                    "img_name": "0372",
+                    "runtime": "0.4978",
+                    "niqe": "5.0873"
+                },
+                {
+                    "img_name": "0373",
+                    "runtime": "0.5128",
+                    "niqe": "5.7495"
+                },
+                {
+                    "img_name": "0374",
+                    "runtime": "0.5005",
+                    "niqe": "5.6975"
+                },
+                {
+                    "img_name": "0375",
+                    "runtime": "0.7410",
+                    "niqe": "5.9264"
+                },
+                {
+                    "img_name": "0376",
+                    "runtime": "3.3339",
+                    "niqe": "6.8666"
+                },
+                {
+                    "img_name": "0377",
+                    "runtime": "3.6396",
+                    "niqe": "5.6485"
+                },
+                {
+                    "img_name": "0378",
+                    "runtime": "0.4863",
+                    "niqe": "4.4327"
+                },
+                {
+                    "img_name": "0379",
+                    "runtime": "0.2289",
+                    "niqe": "6.6881"
+                },
+                {
+                    "img_name": "0380",
+                    "runtime": "0.4839",
+                    "niqe": "5.0231"
+                },
+                {
+                    "img_name": "0381",
+                    "runtime": "1.1183",
+                    "niqe": "5.3358"
+                },
+                {
+                    "img_name": "0382",
+                    "runtime": "0.5006",
+                    "niqe": "8.1526"
+                },
+                {
+                    "img_name": "0383",
+                    "runtime": "0.4997",
+                    "niqe": "6.3285"
+                },
+                {
+                    "img_name": "0384",
+                    "runtime": "0.4886",
+                    "niqe": "6.3643"
+                },
+                {
+                    "img_name": "0385",
+                    "runtime": "0.4844",
+                    "niqe": "6.8663"
+                },
+                {
+                    "img_name": "0386",
+                    "runtime": "1.1372",
+                    "niqe": "5.7382"
+                },
+                {
+                    "img_name": "0387",
+                    "runtime": "1.1572",
+                    "niqe": "5.2478"
+                },
+                {
+                    "img_name": "0388",
+                    "runtime": "0.5102",
+                    "niqe": "5.1457"
+                },
+                {
+                    "img_name": "0389",
+                    "runtime": "0.4855",
+                    "niqe": "6.7437"
+                },
+                {
+                    "img_name": "0390",
+                    "runtime": "0.4920",
+                    "niqe": "5.3455"
+                },
+                {
+                    "img_name": "0391",
+                    "runtime": "1.1144",
+                    "niqe": "5.3318"
+                },
+                {
+                    "img_name": "0392",
+                    "runtime": "0.5108",
+                    "niqe": "5.4601"
+                },
+                {
+                    "img_name": "0393",
+                    "runtime": "2.1655",
+                    "niqe": "6.3864"
+                },
+                {
+                    "img_name": "0394",
+                    "runtime": "0.5131",
+                    "niqe": "5.1332"
+                },
+                {
+                    "img_name": "0395",
+                    "runtime": "0.7406",
+                    "niqe": "6.5124"
+                },
+                {
+                    "img_name": "0396",
+                    "runtime": "0.4850",
+                    "niqe": "5.9708"
+                },
+                {
+                    "img_name": "0397",
+                    "runtime": "0.5089",
+                    "niqe": "5.9449"
+                },
+                {
+                    "img_name": "0398",
+                    "runtime": "0.4958",
+                    "niqe": "4.4938"
+                },
+                {
+                    "img_name": "0399",
+                    "runtime": "0.4910",
+                    "niqe": "5.8063"
+                },
+                {
+                    "img_name": "0400",
+                    "runtime": "6.3289",
+                    "niqe": "4.2842"
+                },
+                {
+                    "img_name": "0401",
+                    "runtime": "0.4694",
+                    "niqe": "6.2065"
+                },
+                {
+                    "img_name": "0402",
+                    "runtime": "0.5041",
+                    "niqe": "6.3111"
+                },
+                {
+                    "img_name": "0403",
+                    "runtime": "0.5166",
+                    "niqe": "5.3970"
+                },
+                {
+                    "img_name": "0404",
+                    "runtime": "0.5170",
+                    "niqe": "6.2739"
+                },
+                {
+                    "img_name": "0405",
+                    "runtime": "0.5103",
+                    "niqe": "5.6485"
+                },
+                {
+                    "img_name": "0406",
+                    "runtime": "3.3549",
+                    "niqe": "5.8413"
+                },
+                {
+                    "img_name": "0407",
+                    "runtime": "0.5056",
+                    "niqe": "6.1596"
+                },
+                {
+                    "img_name": "0408",
+                    "runtime": "0.4811",
+                    "niqe": "4.9329"
+                },
+                {
+                    "img_name": "0409",
+                    "runtime": "0.8241",
+                    "niqe": "4.5209"
+                },
+                {
+                    "img_name": "0410",
+                    "runtime": "6.3016",
+                    "niqe": "6.2358"
+                },
+                {
+                    "img_name": "0411",
+                    "runtime": "1.4652",
+                    "niqe": "5.6473"
+                },
+                {
+                    "img_name": "0412",
+                    "runtime": "0.4940",
+                    "niqe": "4.8071"
+                },
+                {
+                    "img_name": "0413",
+                    "runtime": "0.5435",
+                    "niqe": "7.6729"
+                },
+                {
+                    "img_name": "0414",
+                    "runtime": "0.5532",
+                    "niqe": "7.1697"
+                },
+                {
+                    "img_name": "0415",
+                    "runtime": "0.9683",
+                    "niqe": "5.5403"
+                },
+                {
+                    "img_name": "0416",
+                    "runtime": "3.0363",
+                    "niqe": "5.6293"
+                },
+                {
+                    "img_name": "0417",
+                    "runtime": "0.3260",
+                    "niqe": "5.6294"
+                },
+                {
+                    "img_name": "0418",
+                    "runtime": "0.5679",
+                    "niqe": "4.9695"
+                },
+                {
+                    "img_name": "0419",
+                    "runtime": "0.5108",
+                    "niqe": "4.7259"
+                },
+                {
+                    "img_name": "0420",
+                    "runtime": "0.5085",
+                    "niqe": "6.1996"
+                },
+                {
+                    "img_name": "0421",
+                    "runtime": "0.5191",
+                    "niqe": "5.1202"
+                },
+                {
+                    "img_name": "0422",
+                    "runtime": "0.4926",
+                    "niqe": "5.2091"
+                },
+                {
+                    "img_name": "0423",
+                    "runtime": "0.5072",
+                    "niqe": "7.2363"
+                },
+                {
+                    "img_name": "0424",
+                    "runtime": "2.5670",
+                    "niqe": "5.0527"
+                },
+                {
+                    "img_name": "0425",
+                    "runtime": "0.7437",
+                    "niqe": "5.0061"
+                },
+                {
+                    "img_name": "0426",
+                    "runtime": "0.5005",
+                    "niqe": "5.3498"
+                },
+                {
+                    "img_name": "0427",
+                    "runtime": "0.4939",
+                    "niqe": "6.0241"
+                },
+                {
+                    "img_name": "0428",
+                    "runtime": "0.4936",
+                    "niqe": "6.0535"
+                },
+                {
+                    "img_name": "0429",
+                    "runtime": "0.5138",
+                    "niqe": "5.8422"
+                },
+                {
+                    "img_name": "0430",
+                    "runtime": "0.5060",
+                    "niqe": "5.6821"
+                },
+                {
+                    "img_name": "0431",
+                    "runtime": "0.4818",
+                    "niqe": "4.9217"
+                },
+                {
+                    "img_name": "0432",
+                    "runtime": "0.5049",
+                    "niqe": "4.9363"
+                },
+                {
+                    "img_name": "0433",
+                    "runtime": "1.5093",
+                    "niqe": "5.4471"
+                },
+                {
+                    "img_name": "0434",
+                    "runtime": "0.4850",
+                    "niqe": "6.4410"
+                },
+                {
+                    "img_name": "0435",
+                    "runtime": "1.9474",
+                    "niqe": "6.0762"
+                },
+                {
+                    "img_name": "0436",
+                    "runtime": "1.1304",
+                    "niqe": "5.0518"
+                },
+                {
+                    "img_name": "0437",
+                    "runtime": "0.7794",
+                    "niqe": "5.0688"
+                },
+                {
+                    "img_name": "0438",
+                    "runtime": "0.7841",
+                    "niqe": "5.4310"
+                },
+                {
+                    "img_name": "0439",
+                    "runtime": "0.5065",
+                    "niqe": "4.6269"
+                },
+                {
+                    "img_name": "0440",
+                    "runtime": "2.9377",
+                    "niqe": "5.7242"
+                },
+                {
+                    "img_name": "0441",
+                    "runtime": "0.4970",
+                    "niqe": "6.2586"
+                },
+                {
+                    "img_name": "0442",
+                    "runtime": "0.4881",
+                    "niqe": "7.0143"
+                },
+                {
+                    "img_name": "0443",
+                    "runtime": "1.0777",
+                    "niqe": "4.6407"
+                },
+                {
+                    "img_name": "0444",
+                    "runtime": "0.4934",
+                    "niqe": "4.4279"
+                },
+                {
+                    "img_name": "0445",
+                    "runtime": "0.4561",
+                    "niqe": "6.3106"
+                },
+                {
+                    "img_name": "0446",
+                    "runtime": "0.4834",
+                    "niqe": "5.7552"
+                },
+                {
+                    "img_name": "0447",
+                    "runtime": "0.4748",
+                    "niqe": "4.9794"
+                },
+                {
+                    "img_name": "0448",
+                    "runtime": "0.5001",
+                    "niqe": "6.0009"
+                },
+                {
+                    "img_name": "0449",
+                    "runtime": "0.4902",
+                    "niqe": "4.9203"
+                },
+                {
+                    "img_name": "0450",
+                    "runtime": "1.9701",
+                    "niqe": "5.1414"
+                },
+                {
+                    "img_name": "0451",
+                    "runtime": "0.4666",
+                    "niqe": "6.4191"
+                },
+                {
+                    "img_name": "0452",
+                    "runtime": "0.4906",
+                    "niqe": "6.7574"
+                },
+                {
+                    "img_name": "0453",
+                    "runtime": "0.5094",
+                    "niqe": "6.4547"
+                },
+                {
+                    "img_name": "0454",
+                    "runtime": "0.4830",
+                    "niqe": "6.2806"
+                },
+                {
+                    "img_name": "0455",
+                    "runtime": "0.4878",
+                    "niqe": "4.9517"
+                },
+                {
+                    "img_name": "0456",
+                    "runtime": "0.5119",
+                    "niqe": "4.7522"
+                },
+                {
+                    "img_name": "0457",
+                    "runtime": "0.7278",
+                    "niqe": "5.8024"
+                },
+                {
+                    "img_name": "0458",
+                    "runtime": "0.5209",
+                    "niqe": "5.9351"
+                },
+                {
+                    "img_name": "0459",
+                    "runtime": "5.3541",
+                    "niqe": "5.0038"
+                },
+                {
+                    "img_name": "0460",
+                    "runtime": "0.4849",
+                    "niqe": "5.5770"
+                },
+                {
+                    "img_name": "0461",
+                    "runtime": "0.5011",
+                    "niqe": "5.8921"
+                },
+                {
+                    "img_name": "0462",
+                    "runtime": "0.4864",
+                    "niqe": "5.8753"
+                },
+                {
+                    "img_name": "0463",
+                    "runtime": "0.4941",
+                    "niqe": "5.9913"
+                },
+                {
+                    "img_name": "0464",
+                    "runtime": "2.0830",
+                    "niqe": "7.8114"
+                },
+                {
+                    "img_name": "0465",
+                    "runtime": "5.4248",
+                    "niqe": "4.6135"
+                },
+                {
+                    "img_name": "0466",
+                    "runtime": "0.4632",
+                    "niqe": "6.6841"
+                },
+                {
+                    "img_name": "0467",
+                    "runtime": "0.4934",
+                    "niqe": "6.4008"
+                },
+                {
+                    "img_name": "0468",
+                    "runtime": "0.4922",
+                    "niqe": "6.1271"
+                },
+                {
+                    "img_name": "0469",
+                    "runtime": "0.5065",
+                    "niqe": "5.3243"
+                },
+                {
+                    "img_name": "0470",
+                    "runtime": "0.4812",
+                    "niqe": "6.0983"
+                },
+                {
+                    "img_name": "0471",
+                    "runtime": "0.5051",
+                    "niqe": "4.5202"
+                },
+                {
+                    "img_name": "0472",
+                    "runtime": "0.4934",
+                    "niqe": "4.7288"
+                },
+                {
+                    "img_name": "0473",
+                    "runtime": "0.4915",
+                    "niqe": "5.8865"
+                },
+                {
+                    "img_name": "0474",
+                    "runtime": "2.6487",
+                    "niqe": "5.1468"
+                },
+                {
+                    "img_name": "0475",
+                    "runtime": "0.4876",
+                    "niqe": "5.8568"
+                },
+                {
+                    "img_name": "0476",
+                    "runtime": "1.1306",
+                    "niqe": "5.2822"
+                },
+                {
+                    "img_name": "0477",
+                    "runtime": "5.3144",
+                    "niqe": "5.4209"
+                },
+                {
+                    "img_name": "0478",
+                    "runtime": "0.4639",
+                    "niqe": "5.7721"
+                },
+                {
+                    "img_name": "0479",
+                    "runtime": "0.5118",
+                    "niqe": "6.0730"
+                },
+                {
+                    "img_name": "0480",
+                    "runtime": "0.5412",
+                    "niqe": "5.4259"
+                },
+                {
+                    "img_name": "0481",
+                    "runtime": "0.4726",
+                    "niqe": "5.8164"
+                },
+                {
+                    "img_name": "0482",
+                    "runtime": "0.4787",
+                    "niqe": "6.7304"
+                },
+                {
+                    "img_name": "0483",
+                    "runtime": "0.4796",
+                    "niqe": "5.9174"
+                },
+                {
+                    "img_name": "0484",
+                    "runtime": "0.4901",
+                    "niqe": "6.1166"
+                },
+                {
+                    "img_name": "0485",
+                    "runtime": "0.5061",
+                    "niqe": "6.4732"
+                },
+                {
+                    "img_name": "0486",
+                    "runtime": "0.5137",
+                    "niqe": "4.9225"
+                },
+                {
+                    "img_name": "0487",
+                    "runtime": "0.4773",
+                    "niqe": "5.3583"
+                },
+                {
+                    "img_name": "0488",
+                    "runtime": "0.4922",
+                    "niqe": "5.8679"
+                },
+                {
+                    "img_name": "0489",
+                    "runtime": "0.4862",
+                    "niqe": "5.3055"
+                },
+                {
+                    "img_name": "0490",
+                    "runtime": "0.5068",
+                    "niqe": "5.8797"
+                },
+                {
+                    "img_name": "0491",
+                    "runtime": "0.4928",
+                    "niqe": "5.7673"
+                },
+                {
+                    "img_name": "0492",
+                    "runtime": "1.5417",
+                    "niqe": "5.7658"
+                },
+                {
+                    "img_name": "0493",
+                    "runtime": "1.1083",
+                    "niqe": "9.1475"
+                },
+                {
+                    "img_name": "0494",
+                    "runtime": "1.9584",
+                    "niqe": "5.3349"
+                },
+                {
+                    "img_name": "0495",
+                    "runtime": "1.6253",
+                    "niqe": "4.5862"
+                },
+                {
+                    "img_name": "0496",
+                    "runtime": "1.5536",
+                    "niqe": "4.5123"
+                },
+                {
+                    "img_name": "0497",
+                    "runtime": "5.2850",
+                    "niqe": "4.3186"
+                },
+                {
+                    "img_name": "0498",
+                    "runtime": "0.4798",
+                    "niqe": "5.3015"
+                },
+                {
+                    "img_name": "0499",
+                    "runtime": "0.4832",
+                    "niqe": "5.6425"
+                },
+                {
+                    "img_name": "0500",
+                    "runtime": "0.5028",
+                    "niqe": "5.2129"
+                },
+                {
+                    "img_name": "0501",
+                    "runtime": "4.5392",
+                    "niqe": "4.8782"
+                },
+                {
+                    "img_name": "0502",
+                    "runtime": "1.0670",
+                    "niqe": "5.4911"
+                },
+                {
+                    "img_name": "0503",
+                    "runtime": "0.4889",
+                    "niqe": "5.9654"
+                },
+                {
+                    "img_name": "0504",
+                    "runtime": "0.5066",
+                    "niqe": "5.6505"
+                },
+                {
+                    "img_name": "0505",
+                    "runtime": "1.9295",
+                    "niqe": "5.1177"
+                },
+                {
+                    "img_name": "0506",
+                    "runtime": "0.5169",
+                    "niqe": "7.6489"
+                },
+                {
+                    "img_name": "0507",
+                    "runtime": "0.5087",
+                    "niqe": "4.6676"
+                },
+                {
+                    "img_name": "0508",
+                    "runtime": "0.4945",
+                    "niqe": "5.4643"
+                },
+                {
+                    "img_name": "0509",
+                    "runtime": "1.1133",
+                    "niqe": "5.0325"
+                },
+                {
+                    "img_name": "0510",
+                    "runtime": "0.4989",
+                    "niqe": "5.2602"
+                },
+                {
+                    "img_name": "0511",
+                    "runtime": "1.1288",
+                    "niqe": "5.1256"
+                },
+                {
+                    "img_name": "0512",
+                    "runtime": "0.4625",
+                    "niqe": "6.0021"
+                },
+                {
+                    "img_name": "0513",
+                    "runtime": "0.4783",
+                    "niqe": "6.1807"
+                },
+                {
+                    "img_name": "0514",
+                    "runtime": "2.9518",
+                    "niqe": "5.6149"
+                },
+                {
+                    "img_name": "0515",
+                    "runtime": "8.9279",
+                    "niqe": "5.6266"
+                },
+                {
+                    "img_name": "0516",
+                    "runtime": "0.4886",
+                    "niqe": "4.4000"
+                },
+                {
+                    "img_name": "0517",
+                    "runtime": "0.4985",
+                    "niqe": "6.1227"
+                },
+                {
+                    "img_name": "0518",
+                    "runtime": "0.7844",
+                    "niqe": "7.1412"
+                },
+                {
+                    "img_name": "0519",
+                    "runtime": "0.7686",
+                    "niqe": "5.8542"
+                },
+                {
+                    "img_name": "0520",
+                    "runtime": "0.4902",
+                    "niqe": "6.7632"
+                },
+                {
+                    "img_name": "0521",
+                    "runtime": "0.4942",
+                    "niqe": "5.8154"
+                },
+                {
+                    "img_name": "0522",
+                    "runtime": "0.4870",
+                    "niqe": "5.3876"
+                },
+                {
+                    "img_name": "0523",
+                    "runtime": "5.3268",
+                    "niqe": "4.9368"
+                },
+                {
+                    "img_name": "0524",
+                    "runtime": "0.4932",
+                    "niqe": "5.8964"
+                },
+                {
+                    "img_name": "0525",
+                    "runtime": "0.4949",
+                    "niqe": "5.6673"
+                },
+                {
+                    "img_name": "0526",
+                    "runtime": "0.7738",
+                    "niqe": "4.8342"
+                },
+                {
+                    "img_name": "0527",
+                    "runtime": "2.5467",
+                    "niqe": "5.4336"
+                },
+                {
+                    "img_name": "0528",
+                    "runtime": "1.9426",
+                    "niqe": "5.0221"
+                },
+                {
+                    "img_name": "0529",
+                    "runtime": "0.4816",
+                    "niqe": "5.6154"
+                },
+                {
+                    "img_name": "0530",
+                    "runtime": "1.6457",
+                    "niqe": "5.4987"
+                },
+                {
+                    "img_name": "0531",
+                    "runtime": "0.4832",
+                    "niqe": "4.9064"
+                },
+                {
+                    "img_name": "0532",
+                    "runtime": "0.5127",
+                    "niqe": "5.3706"
+                },
+                {
+                    "img_name": "0533",
+                    "runtime": "0.4766",
+                    "niqe": "6.0573"
+                },
+                {
+                    "img_name": "0534",
+                    "runtime": "0.5101",
+                    "niqe": "4.4039"
+                },
+                {
+                    "img_name": "0535",
+                    "runtime": "0.5124",
+                    "niqe": "4.7051"
+                },
+                {
+                    "img_name": "0536",
+                    "runtime": "5.6270",
+                    "niqe": "5.0597"
+                },
+                {
+                    "img_name": "0537",
+                    "runtime": "1.0415",
+                    "niqe": "5.3585"
+                },
+                {
+                    "img_name": "0538",
+                    "runtime": "1.1204",
+                    "niqe": "5.2673"
+                },
+                {
+                    "img_name": "0539",
+                    "runtime": "0.7785",
+                    "niqe": "7.0031"
+                },
+                {
+                    "img_name": "0540",
+                    "runtime": "0.4978",
+                    "niqe": "4.9119"
+                },
+                {
+                    "img_name": "0541",
+                    "runtime": "1.0982",
+                    "niqe": "5.8376"
+                },
+                {
+                    "img_name": "0542",
+                    "runtime": "2.6373",
+                    "niqe": "4.7604"
+                },
+                {
+                    "img_name": "0543",
+                    "runtime": "3.9934",
+                    "niqe": "5.4706"
+                },
+                {
+                    "img_name": "0544",
+                    "runtime": "0.4695",
+                    "niqe": "5.4768"
+                },
+                {
+                    "img_name": "0545",
+                    "runtime": "1.1157",
+                    "niqe": "5.8074"
+                },
+                {
+                    "img_name": "0546",
+                    "runtime": "0.5014",
+                    "niqe": "7.7876"
+                },
+                {
+                    "img_name": "0547",
+                    "runtime": "2.5596",
+                    "niqe": "4.6881"
+                },
+                {
+                    "img_name": "0548",
+                    "runtime": "0.4893",
+                    "niqe": "6.2686"
+                },
+                {
+                    "img_name": "0549",
+                    "runtime": "1.0576",
+                    "niqe": "4.8611"
+                },
+                {
+                    "img_name": "0550",
+                    "runtime": "0.4912",
+                    "niqe": "4.4633"
+                },
+                {
+                    "img_name": "0551",
+                    "runtime": "0.4791",
+                    "niqe": "5.3703"
+                },
+                {
+                    "img_name": "0552",
+                    "runtime": "0.4849",
+                    "niqe": "4.6778"
+                },
+                {
+                    "img_name": "0553",
+                    "runtime": "0.4956",
+                    "niqe": "5.7525"
+                },
+                {
+                    "img_name": "0554",
+                    "runtime": "1.4778",
+                    "niqe": "4.2052"
+                },
+                {
+                    "img_name": "0555",
+                    "runtime": "5.4671",
+                    "niqe": "4.7761"
+                },
+                {
+                    "img_name": "0556",
+                    "runtime": "1.0604",
+                    "niqe": "5.3739"
+                },
+                {
+                    "img_name": "0557",
+                    "runtime": "0.4973",
+                    "niqe": "6.2307"
+                },
+                {
+                    "img_name": "0558",
+                    "runtime": "0.4857",
+                    "niqe": "5.8704"
+                },
+                {
+                    "img_name": "0559",
+                    "runtime": "0.4821",
+                    "niqe": "5.8114"
+                },
+                {
+                    "img_name": "0560",
+                    "runtime": "2.6017",
+                    "niqe": "6.6156"
+                },
+                {
+                    "img_name": "0561",
+                    "runtime": "1.6493",
+                    "niqe": "5.7729"
+                },
+                {
+                    "img_name": "0562",
+                    "runtime": "0.4590",
+                    "niqe": "6.8424"
+                },
+                {
+                    "img_name": "0563",
+                    "runtime": "6.5888",
+                    "niqe": "5.2665"
+                },
+                {
+                    "img_name": "0564",
+                    "runtime": "5.5969",
+                    "niqe": "5.3913"
+                },
+                {
+                    "img_name": "0565",
+                    "runtime": "0.4612",
+                    "niqe": "5.7183"
+                },
+                {
+                    "img_name": "0566",
+                    "runtime": "0.4776",
+                    "niqe": "4.9524"
+                },
+                {
+                    "img_name": "0567",
+                    "runtime": "0.5249",
+                    "niqe": "4.5486"
+                },
+                {
+                    "img_name": "0568",
+                    "runtime": "0.4913",
+                    "niqe": "5.5986"
+                },
+                {
+                    "img_name": "0569",
+                    "runtime": "0.5087",
+                    "niqe": "4.5684"
+                },
+                {
+                    "img_name": "0570",
+                    "runtime": "0.4919",
+                    "niqe": "8.2073"
+                },
+                {
+                    "img_name": "0571",
+                    "runtime": "0.4933",
+                    "niqe": "5.5154"
+                },
+                {
+                    "img_name": "0572",
+                    "runtime": "0.7284",
+                    "niqe": "5.1832"
+                },
+                {
+                    "img_name": "0573",
+                    "runtime": "1.1231",
+                    "niqe": "5.0391"
+                },
+                {
+                    "img_name": "0574",
+                    "runtime": "0.4905",
+                    "niqe": "7.3008"
+                },
+                {
+                    "img_name": "0575",
+                    "runtime": "5.4557",
+                    "niqe": "4.2405"
+                },
+                {
+                    "img_name": "0576",
+                    "runtime": "0.5017",
+                    "niqe": "6.2764"
+                },
+                {
+                    "img_name": "0577",
+                    "runtime": "2.6217",
+                    "niqe": "5.4632"
+                },
+                {
+                    "img_name": "0578",
+                    "runtime": "0.7187",
+                    "niqe": "5.0471"
+                },
+                {
+                    "img_name": "0579",
+                    "runtime": "5.3439",
+                    "niqe": "5.4776"
+                },
+                {
+                    "img_name": "0580",
+                    "runtime": "0.5066",
+                    "niqe": "6.0881"
+                },
+                {
+                    "img_name": "0581",
+                    "runtime": "0.5091",
+                    "niqe": "5.4259"
+                },
+                {
+                    "img_name": "0582",
+                    "runtime": "0.4862",
+                    "niqe": "4.7224"
+                },
+                {
+                    "img_name": "0583",
+                    "runtime": "2.2081",
+                    "niqe": "5.5806"
+                },
+                {
+                    "img_name": "0584",
+                    "runtime": "0.4775",
+                    "niqe": "6.3163"
+                },
+                {
+                    "img_name": "0585",
+                    "runtime": "0.5060",
+                    "niqe": "5.0934"
+                },
+                {
+                    "img_name": "0586",
+                    "runtime": "0.7874",
+                    "niqe": "5.3117"
+                },
+                {
+                    "img_name": "0587",
+                    "runtime": "1.0738",
+                    "niqe": "5.4866"
+                },
+                {
+                    "img_name": "0588",
+                    "runtime": "0.4779",
+                    "niqe": "6.0618"
+                },
+                {
+                    "img_name": "0589",
+                    "runtime": "1.1026",
+                    "niqe": "4.4553"
+                },
+                {
+                    "img_name": "0590",
+                    "runtime": "0.4888",
+                    "niqe": "6.4463"
+                },
+                {
+                    "img_name": "0591",
+                    "runtime": "0.4813",
+                    "niqe": "9.3519"
+                },
+                {
+                    "img_name": "0592",
+                    "runtime": "0.4907",
+                    "niqe": "6.5347"
+                },
+                {
+                    "img_name": "0593",
+                    "runtime": "0.5101",
+                    "niqe": "5.8967"
+                },
+                {
+                    "img_name": "0594",
+                    "runtime": "0.4797",
+                    "niqe": "5.7526"
+                },
+                {
+                    "img_name": "0595",
+                    "runtime": "0.5010",
+                    "niqe": "4.9099"
+                },
+                {
+                    "img_name": "0596",
+                    "runtime": "1.1225",
+                    "niqe": "6.1064"
+                },
+                {
+                    "img_name": "0597",
+                    "runtime": "0.4838",
+                    "niqe": "6.2410"
+                },
+                {
+                    "img_name": "0598",
+                    "runtime": "0.4946",
+                    "niqe": "4.9685"
+                },
+                {
+                    "img_name": "0599",
+                    "runtime": "1.9824",
+                    "niqe": "8.8677"
+                },
+                {
+                    "img_name": "0600",
+                    "runtime": "0.4901",
+                    "niqe": "5.7086"
+                }
+            ]
+        }
+    ]
+}
