@@ -2,5 +2,6 @@ models/
 dataset/
 results/
 __pycache__/
+tmp/
 .DS_Store
 test*
