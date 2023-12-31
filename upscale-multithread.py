@@ -184,11 +184,15 @@ def main():
     else:
         paths = sorted(glob.glob(os.path.join(args.input, "*")))
 
-    # set models 利用model_path设置模型 -> 目前是单线程逻辑
-    # TODO lyq: 多线程怎么加的问题
-    model = args.model_path
-    upmodel = UpscaleModel(model=model, model_size=(200, 200), upscale_rate=4, tile_size=(196, 196), padding=20)
+    # parameters
+    model_size = (200, 200)
+    tile_size = model_size
+    padding = 0
 
+    # set models 利用model_path设置模型 -> 目前是单线程逻辑
+    model = args.model_path
+    upmodel = UpscaleModel(model=model, model_size=model_size, upscale_rate=4, tile_size=tile_size, padding=padding)
+  
     # 模型推理开始
     start_all = time.time()
     result, runtime, niqe = [], [], []

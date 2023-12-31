@@ -128,11 +128,16 @@ def main():
     else:
         paths = sorted(glob.glob(os.path.join(args.input, "*")))
 
+    # parameters
+    model_size = (200, 200)
+    tile_size = model_size
+    padding = 0
+
     # set models
     model = args.model_path
     # tile(200,200) 时间略多，NIQE略少
-    # padding 减少，时间增大，NIQE增多
-    upmodel = UpscaleModel(model=model, model_size=(200, 200), upscale_rate=4, tile_size=(196, 196), padding=20)
+    # padding 减少，时间减少，NIQE增多
+    upmodel = UpscaleModel(model=model, model_size=model_size, upscale_rate=4, tile_size=tile_size, padding=padding)
 
     start_all = time.time()
     result, runtime, niqe = [], [], []
