@@ -1,0 +1,20 @@
+data:
+  train_root: './datasets/2K_HR'
+  test_root: './datasets/2K_HR_test'
+  lr_crop_size: 768
+model:
+  upscale_factor: 2
+  img_channels: 3
+training:
+  iterations: 2000 # total number of iterations to train
+  batch_size: 16
+  val_interval: 100 # run validation after this # of iterations
+  print_interval: 20 # print training log every # of iterations
+  checkpoint_folder: 'models'
+  optimizer:
+    name: adam # sgd or adam
+    lr: 1.0e-3
+  scheduler:
+    lr_decay: 0.5
+    interval: 100000 # decay lr every # of iteraitons
+  resume: 'None' # path to checkpoint to resume from
